@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/land.css">
+     
+    <title>login</title>
+</head>
+
+
+<body>
+    <div class="login">
+        <div class="form">
+            <form action="register" class="register1">
+                <input type="text" placeholder="user name" >
+                <input type="email" placeholder="email" >
+                <input type="password" placeholder="password" id="pass1" required>
+                <input type="password" placeholder="confirm password" id="pass2" required>
+                <button onclick="passValidator();">Create</button>
+                <p class="message">Registered <a href="#">Login</a></p>
+            </form>
+            
+            <form action="register" class="register">
+                <input type="email" placeholder="email" required>
+                <input type="password" placeholder="password" required>
+                <button class="login1">Login</button>
+                <p class="message">Not registered <a href="#">Register</a></p>
+            </form>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="./Js/jquery-3.4.1.js"></script>
+    <script src="./Js/land.js"></script>
+
+
+
+
+
+</body>
+</html>
