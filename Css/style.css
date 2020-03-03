@@ -34,6 +34,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-  
- 
+ .wrapper textarea{
+     height: 80px;
+     resize: none;
+ }
