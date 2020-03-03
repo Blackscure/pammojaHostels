@@ -51,3 +51,12 @@ body{
      border-radius: 25px;
      cursor: pointer;
  }
+
+ .wrapper #error_message{
+     margin-bottom: 20px;
+     padding: 0px;
+     background: red;
+     text-align: center;
+     font-size: 14px;
+     transition: all 0.5s ease;
+ }
