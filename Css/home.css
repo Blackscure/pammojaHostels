@@ -1,4 +1,36 @@
 body{
     text-align: center;
-    background-color: grey;
+    background-image: url("https://bit.ly/3aryTXo");  
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+  
+  
+.hide-for-medium-down{
+   
+    margin-top: 30px;
+    padding-top: 0px;
+    color: black;
+} 
+ .bar{
+    margin-top: 5px;
+    float:left;
+    font-size: 60px;
+}
+
+h1{
+    font-family: 'Nosifer', cursive;
+   color:white;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 80px;
+}
+p{
+    font-size: 23px;
+    font-family: 'Source Serif Pro', serif;
+
 }
