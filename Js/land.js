@@ -13,5 +13,6 @@ function passValidator(){
         alert("Success");
     }else if(password1 != password2){
         alert("Passwords are not the same!");
+        break;
     }
 }
