@@ -14,7 +14,7 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    if(subject.length < 10){
+    if(subject.length < 3){
       text = "Please Enter Correct Subject";
       error_message.innerHTML = text;
       return false;
@@ -24,12 +24,12 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    if(email.indexOf("@") == -1 || email.length < 6){
+    if(email.indexOf("@") == -1 || email.length < 10){
       text = "Please Enter valid Email";
       error_message.innerHTML = text;
       return false;
     }
-    if(message.length <= 140){
+    if(message.length <= 40){
       text = "Please Enter More Than 140 Characters";
       error_message.innerHTML = text;
       return false;
