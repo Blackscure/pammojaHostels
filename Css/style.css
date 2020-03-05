@@ -1,3 +1,5 @@
+
+
 @import Url("https://fonts.googleapis.com/css?family=Rajdhani&display=swap");
 
 *{
@@ -6,6 +8,7 @@
     box-sizing: border-box;
     font-family: 'Rajdhani', sans-serif;
 }
+<<<<<<< HEAD
 
 /***********body section********/
 .wrapper{
@@ -37,3 +40,43 @@ background-size: cover;
 .wrapper .input_field{
     margin-bottom: 10px;
 }
+=======
+ /***********body section********/
+    .wrapper{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        max-width: 350px;
+        width: 100%;
+        background: whitesmoke;
+        padding: 25px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 2px rgb(5, 5, 5);
+    }
+
+    .wrapper h2{
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    
+    }
+body{
+    background: url("../Images/grop.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .wrapper textarea{
+     height: 80px;
+     resize: none;
+ }
+
+ .wrapper .btn input[type="submit"]{
+     border: 0;
+     margin-top: 15px;
+     padding: 10px;
+     width: 100%;
+     background: lightgreen;
+ }
+>>>>>>> development
