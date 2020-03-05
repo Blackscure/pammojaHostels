@@ -1,19 +1,19 @@
-$(document).ready(function () {
-    $(".message").click(function () {
-        $(".register1").toggle();
-        $(".register").toggle();
-    });
+$(document).ready(function(){
+    $(".message").click(function(){
+    $(".register1").toggle();
+    $(".register").toggle();
+});
 });
 
 
-function passValidator() {
+function passValidator(){
     var password1 = document.getElementById('pass1').value;
     var password2 = document.getElementById('pass2').value;
-    var wrongPassword1 =docum
-    if (password1 === password2) {
+    if(password1===password2){
         alert("Success");
-    } else if (password1 != password2) {
-        alert("Passwords are not the same!");
+    }else if(password1 != password2){
+        alert("Passwords are not the same!");        
     }
 }
+
 
