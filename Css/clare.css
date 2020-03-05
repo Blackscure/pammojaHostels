@@ -7,3 +7,10 @@
   width: 330px;
   cursor: pointer;
 }
+
+h1{
+  text-align: center;
+  color: white;
+  font-family:'Fredoka One', cursive;
+}
+
