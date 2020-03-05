@@ -51,6 +51,7 @@ background-size: cover;
         padding: 25px;
         border-radius: 5px;
         box-shadow: 4px 4px 2px rgb(5, 5, 5);
+        
     }
 
     .wrapper h2{
@@ -64,6 +65,10 @@ body{
     background: url("../Images/grop.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.wrapper{
+    padding-top: 30px;
 }
  .wrapper textarea{
      height: 80px;
@@ -99,9 +104,52 @@ body{
     width: 100%;
     background: skyblue;
     border-radius: 40px;
+
 }
 #footer{
     padding-top: 800px;
     margin-bottom: 0px;
     padding-top: 600px;
+
+}
+
+/****nav****/
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width:100%;
+    
+  }
+  
+  li {
+    float: right;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: 3px 3px 3px black;
+    
+  }
+  
+  li a:hover {
+    background-color:skyblue;
+  }
+
+  #myform{
+      padding-top: none;
+  }
+
+  #footer img{
+    width: 30px;
+    opacity: 0.47;
+  }
  
