@@ -1,11 +1,11 @@
 # Pammoja Hostels
 
 ## Authors Name
-Wekesa Buyahi
-Kevin Kipkoech
-Clare Richards
-Sheila Egeidza
-Einstein Eliam
+1. Wekesa Buyahi
+2. Kevin Kipkoech
+3. Clare Richards
+4. Sheila Egeidza
+5. Einstein Eliam
 
 ## Description of project
 Pammoja_hostels is a site where students or residents can look for the partner of their choce and help each other contribute the rent.
