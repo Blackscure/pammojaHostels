@@ -1,36 +1,60 @@
-body{
-    text-align: center;
-    background-image: url("https://bit.ly/3aryTXo");  
-    background-size: cover;
-    background-repeat: no-repeat;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    
-}
-
+    background-color: #333;
+  }
   
+  li {
+    float: left;
+  }
   
-.hide-for-medium-down{
-   
-    margin-top: 30px;
-    padding-top: 0px;
-    color: black;
-} 
- .bar{
-    margin-top: 5px;
-    float:left;
-    font-size: 60px;
-}
-
-h1{
-    font-family: 'Nosifer', cursive;
-   color:white;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   padding-top: 80px;
-}
-p{
-    font-size: 23px;
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:black;
+  }
+  .kip{
+      margin-left: 1000px;
+  }
+  h1{
+      text-align: center;
+      font-family: 'Nosifer', cursive;
+  }
+  p{
     font-family: 'Source Serif Pro', serif;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .pamoja{
+    background-image: url("/pictures/bg1.png ");  
+    color: white;
+    height: 450px; 
+    overflow: hidden;
+    width: 100% !important;
+    
+  }
+  h2{
+    color: black;
+      margin-top: 20px;
+      text-align: center;
+      font-family: 'Arvo', serif;
 
-}
+  }
+  h3{
+    color: black;
+      margin-top: 20px;
+      text-align: center;  
+  }
+  .shy{
+      background-color: #333;
+  }
+ 
