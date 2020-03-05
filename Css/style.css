@@ -1,5 +1,4 @@
-
-
+ 
 @import Url("https://fonts.googleapis.com/css?family=Rajdhani&display=swap");
 
 *{
@@ -111,6 +110,7 @@ body{
     padding-top: 800px;
     margin-bottom: 0px;
     padding-top: 600px;
+
 }
 
 /****nav****/
@@ -152,3 +152,4 @@ ul{
     width: 30px;
     opacity: 0.47;
   }
+ 
