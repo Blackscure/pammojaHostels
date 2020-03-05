@@ -15,8 +15,8 @@ Pammoja_hostels is a site where students or residents can look for the partner o
 1. Home section
 2. Login form
 3. contact Us
-4. 
-5. 
+4. Find mactch
+5. Edit Match
 
 
  
