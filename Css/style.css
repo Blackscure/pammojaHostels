@@ -78,10 +78,6 @@ body{
      padding: 10px;
      width: 100%;
      background: lightgreen;
-<<<<<<< HEAD
- }
->>>>>>> development
-=======
      color: black;
      text-transform: uppercase;
      left: 5px;
@@ -97,4 +93,3 @@ body{
      font-size: 14px;
      transition: all 0.5s ease;
  }
->>>>>>> cc25e1a57c3bef411ea2378637c576cd106d37cc
