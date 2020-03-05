@@ -32,4 +32,4 @@ Pammoja_hostels is a site where students or residents can look for the partner o
 
 
 ## Lisence
-[Lisence](/LISENCE)
+[Lisence](/Lisence)
