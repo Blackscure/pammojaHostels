@@ -5,31 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pammoja_hostels</title>
+    <link href="./Css/style.css" rel="stylesheet" type="text/Css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <div class="wrapper">
-        <h2>Contact us</h2>
-        <div id="error_message"></div>
-        <form id="myform">
-            <div class="input_field">
-                <input type="text" placeholder="Name" id="name">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="clare.html">Find Match</a></li>
+            <li><a class="active" href="Index.html">Contact</a></li>
+            <li><a href="land.html">Sign Up</a></li>
+        </ul>
+    <div class="container-fluid">
+        <div class="wrapper">
+            <h2>Contact us</h2>
+            <div id="error_message">
+               
             </div>
-            <div class="input_field">
-                <input type="text" placeholder="Subject" id="subject">
-            </div>
-            <div class="input_field">
-                <input type="text" placeholder="Phone" id="phone">
-            </div>
-            <div class="input_field">
-                <input type="text" placeholder="Email" id="email">
-            </div>
-            <div class="input_field">
-                <textarea id="message" placeholder="Message"></textarea>
-            </div>
-            <div class="btn">
-                <input type="submit">
-            </div>
-        </form>
+            <form action="" id="myform" onsubmit = "return validate();">
+              <div class="input_field">
+                  <input type="text" placeholder="Name" id="name">
+              </div><br>
+              <div class="input_field">
+                  <input type="text" placeholder="Subject" id="subject">
+              </div><br>
+              <div class="input_field">
+                  <input type="text" placeholder="Phone" id="phone">
+              </div><br>
+              <div class="input_field">
+                  <input type="text" placeholder="Email" id="email">
+              </div><br>
+              <div class="input_field">
+                  <textarea placeholder="Message" id="message"></textarea>
+              </div><br>
+              <div class="btn">
+                  <input type="submit">
+              </div>
+            </form>
+          </div>
+      </div>
+      <div>
+          <br>
+          <br>
+          <br>
+        <footer id="footer">
+                    <hr>
+                        <div class="text-center center-block">
+                            <br />
+                             
+                            <a href="https://www.facebook.com/"><img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png"></a>
+                            <a href=" https://blackscure.github.io/pammojaHostels/"><img src="https://img.icons8.com/ios-filled/50/000000/domain.png"></a>
+                            <a href="https://www.instagram.com/bu_yahi/"><img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png"></a>
+                            <a href="https://github.com/Blackscure"><img src="https://img.icons8.com/ios-filled/50/000000/github.png"></a>
+                </div>
+            <hr/>
+        </footer>
     </div>
+    </div>
+      <script src="Js/Script.js"></script>
 </body>
 </html>
+ 
