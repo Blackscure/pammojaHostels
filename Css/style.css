@@ -62,7 +62,7 @@ background-size: cover;
     
     }
 body{
-    background: url("../Images/grop.jpeg");
+    background: url("../hostels.img/backg2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -150,6 +150,5 @@ ul{
 
   #footer img{
     width: 30px;
-    opacity: 0.48;
   }
  
