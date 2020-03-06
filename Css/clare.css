@@ -2,7 +2,7 @@
   display: inline-block;
   text-align: center;
   margin-bottom: 25px;
-  background-color: skyblue;
+  background-color:skyblue;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(26, 27, 68, 0.19);
   width: 330px;
   cursor: pointer; 
@@ -51,4 +51,33 @@ button:hover{
   padding-top: 5px ;
   color: white;
   background-color: black;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width:100%;
+  
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background-color:skyblue;
 }
