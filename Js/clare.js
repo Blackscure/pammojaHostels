@@ -67,6 +67,7 @@ function wendy() {
   Swal.fire({
     title: 'Are you sure you want Wendie as your roomie?',
     text: "You won't be able to revert this!",
+    text:"Email:wendy1234@gmail.com",
     icon: 'success',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
@@ -87,6 +88,7 @@ function brandon() {
   Swal.fire({
     title: 'Are you sure you want Brandon as your roomie?',
     text: "You won't be able to revert this!",
+    text:"Email:brandon1234@gmail.com",
     icon: 'success',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
@@ -107,6 +109,7 @@ function cindy() {
   Swal.fire({
     title: 'Are you sure you want Cindy as your roomie?',
     text: "You won't be able to revert this!",
+    text:"Email:cindy1234@gmail.com",
     icon: 'success',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
@@ -127,6 +130,7 @@ function farahan() {
   Swal.fire({
     title: 'Are you sure you want Farahan our roomie?',
     text: "You won't be able to revert this!",
+    text:"Email:farahan1234@gmail.com",
     icon: 'success',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
@@ -147,6 +151,7 @@ function seven() {
   Swal.fire({
     title: 'Are you sure you want Seven as your roomie?',
     text: "You won't be able to revert this!",
+    text:"Email:seven1234@gmail.com",
     icon: 'success',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
@@ -168,6 +173,7 @@ function margarita() {
   Swal.fire({
     title: 'Are you sure you want joram as your roomie?',
     text: "You won't be able to revert this!",
+    text:"Email:margarita1234@gmail.com",
     icon: 'success',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
@@ -188,6 +194,7 @@ function john() {
   Swal.fire({
     title: 'Are you sure you want John as your roomie?',
     text: "You won't be able to revert this!",
+    text:"Email:john1234@gmail.com",
     icon: 'success',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
@@ -208,6 +215,7 @@ function montana() {
   Swal.fire({
     title: 'Are you sure you want Montana as your roomie?',
     text: "You won't be able to revert this!",
+    text:"Email:montana1234@gmail.com",
     icon: 'success',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
