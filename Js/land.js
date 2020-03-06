@@ -1,4 +1,3 @@
- 
 $(document).ready(function(){
     $(".message").click(function(){
     $(".register1").toggle();
