@@ -1,3 +1,59 @@
+<<<<<<< HEAD
+#profile1,#profile2,#profile3,#profile4,#profile5,#profile6,#profile7,#profile8,#profile9{
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 25px;
+  background-color: skyblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(26, 27, 68, 0.19);
+  width: 330px;
+  cursor: pointer; 
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
+
+body{
+  background-image: linear-gradient(to bottom, rgba(5, 10, 44, 0.52), rgba(13, 9, 48, 0.73)),
+  url('../hostels.img/bg.jpeg');
+}
+
+button:hover{
+  color:red;
+}
+
+.text1,.text2,.text3{
+  display: none;
+  position: absolute;
+  width: 330px;
+  height: 300px;
+  padding-top: 5px ;
+  color: white;
+  background-color: black;
+}
+
+.text4,.text5,.text6{
+  display: none;
+  position: absolute;
+  width: 330px;
+  height: 300px;
+  padding-top: 5px ;
+  color: white;
+  background-color: black;
+}
+
+.text7,.text8,.text9{
+  display: none;
+  position: absolute;
+  width: 330px;
+  height: 300px;
+  padding-top: 5px ;
+  color: white;
+  background-color: black;
+}
+=======
 body {
     background-color: #050202;
     color: white;
@@ -43,3 +99,4 @@ body {
     transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
     color: #999;
   }
+>>>>>>> a3457b6eb083492236efb1671668e7aacd03cf61
