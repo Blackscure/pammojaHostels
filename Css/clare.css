@@ -3,24 +3,24 @@
   text-align: center;
   margin-bottom: 25px;
   background-color: skyblue;
-  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(26, 27, 68, 0.19) ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(26, 27, 68, 0.19);
   width: 330px;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 h1{
   text-align: center;
   color: white;
-  font-family:'Fredoka One', cursive;
+  font-family: 'Fredoka One', cursive;
 }
 
 body{
-  background-image: linear-gradient(to bottom, rgba(5, 10, 44, 0.52), rgba(13, 9, 48, 0.73)), url('../hostels.img/bg.jpeg');
-  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(5, 10, 44, 0.52), rgba(13, 9, 48, 0.73)),
+  url('../hostels.img/bg.jpeg');
 }
 
 button:hover{
-  color: red;
+  color:red;
 }
 
 .text1,.text2,.text3{
@@ -28,8 +28,9 @@ button:hover{
   position: absolute;
   width: 330px;
   height: 300px;
-  padding-top: 5px;
+  padding-top: 5px ;
   color: white;
+  background-color: black;
 }
 
 .text4,.text5,.text6{
@@ -37,15 +38,17 @@ button:hover{
   position: absolute;
   width: 330px;
   height: 300px;
-  padding-top: 5px;
+  padding-top: 5px ;
   color: white;
+  background-color: black;
 }
 
 .text7,.text8,.text9{
   display: none;
   position: absolute;
-  width: 300px;
+  width: 330px;
   height: 300px;
+  padding-top: 5px ;
   color: white;
+  background-color: black;
 }
-
