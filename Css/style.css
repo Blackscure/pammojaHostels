@@ -120,14 +120,13 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#333;
     position: fixed;
     width:100%;
     
   }
   
   li {
-    float: left;
+    float: right;
     
   }
   
@@ -151,6 +150,6 @@ ul{
 
   #footer img{
     width: 30px;
-    opacity: 0.47;
+    opacity: 0.48;
   }
  
