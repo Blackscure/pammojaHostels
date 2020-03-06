@@ -7,9 +7,17 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
         <style>
+          body{
+            background-image: url("../Images/aerial-view-of-city-near-body-of-water-3765834.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+        
+          }
+
+
         /*style for modal header, person modal form lauch button and person modal form close button*/
         .modal-header, h4, .close {
-          background-color: #5cb85c;
+          background-color: #428bca;
           color:white !important;
           text-align: center;
           font-size: 30px;
@@ -22,7 +30,7 @@
         .btn-file {
             position: relative;
             overflow: hidden;
-            background-color: #5cb85c;
+            background-color: #428bca;
         }
         .btn-file input[type=file] {
             position: absolute;
@@ -48,14 +56,21 @@
       
       <div class="container">
         <div class="jummbotron-fluid" style="font-family: arial; font-size: xx-large; text-align: center;">
-            <h1>Didn't find your match?</h1>
-            <h2>Create your own criteria here !</h2>
+            <h1 style="color: white;">Didn't find your match?</h1>
+            <h2 style="color: white;">Create your own criteria here !</h2>
         </div>
-        <h2>Modal Login Example</h2>
+        <h2 style="color: white; text-align: center; padding-top: 5%;">From here you can edit your prefferred match specifications, prefferred hostel specifications or change your account features and description</h2>
         <!-- Trigger the custom person features modal with this button button -->
-        <button type="button" class="btn btn-success btn-lg" id="myBtn">Create your own person features for match!</button>
+        <button type="button" class="btn btn-primary btn-lg" id="myBtn">Create your own person features for match!</button>
         <!-- Trigger the custom hostel features modal with this button button -->
-        <button type="button" class="btn btn-success btn-lg" id="myBtn1">Create your own hostel features for match!</button>
+        <button type="button" class="btn btn-primary btn-lg" id="myBtn1">Create your own hostel features for match!</button>
+        <!-- Trigger the edit my profile features modal with this button button -->
+        <button type="button" class="btn btn-primary btn-lg" id="myBtn2">Edit my account features for a match !</button>
+        <br>
+        <br>
+        <!-- Go back to match selection page with this button button -->
+        <a href="clare.html" style="padding-top: 5%;"><button type="button" class="btn btn-primary btn-lg" id="myBtn3">Back to match selection</button></a>
+        
         
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
@@ -79,19 +94,19 @@
                   </div>
                   <div class="form-group">
                     <label for="physicalAppearance"><span class="glyphicon glyphicon-eye-open"></span> Prefferred match physical appearance</label>
-                    <input type="text" class="form-control" id="prefphysicalappearance" placeholder="Enter desired physical appearance">
+                    <input type="text" class="form-control" id="prefphysicalappearance" placeholder="Enter desired physical appearance" required>
                   </div>
                   <div class="form-group">
                     <label for="characterTraits"><span class="glyphicon glyphicon-thumbs-up"></span> Prefferred match character traits</label>
-                    <input type="text" class="form-control" id="prefcharactertraits" placeholder="Enter desired character traits">
+                    <input type="text" class="form-control" id="prefcharactertraits" placeholder="Enter desired character traits" required>
                   </div>
                   <div class="form-group">
                     <label for="location"><span class="glyphicon glyphicon-home"></span> Prefferred match location</label>
-                    <input type="text" class="form-control" id="prefmatchlocation" placeholder="Enter desired/prefferred location of match">
+                    <input type="text" class="form-control" id="prefmatchlocation" placeholder="Enter desired/prefferred location of match" required>
                   </div>
                   <div class="form-group">
                     <label for="ageBracket"><span class="glyphicon glyphicon-calendar"></span> Prefferred match age bracket</label>
-                    <input type="text" class="form-control" id="prefmatchagebracket" placeholder="Enter desired/prefferred match age bracket">
+                    <input type="text" class="form-control" id="prefmatchagebracket" placeholder="Enter desired/prefferred match age bracket" required>
                   </div>
                   <div class="form-group">
                     <label for="userImageUpload"><span class="glyphicon glyphicon-cloud-upload"></span> Upload Image</label>
@@ -108,7 +123,7 @@
                   <!-- <div class="checkbox">
                     <label><input type="checkbox" value="" checked>Remember me</label>
                   </div> -->
-                    <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-ok"></span> Submit custom selection</button>
+                    <button type="submit" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-ok"></span> Submit custom selection</button>
                 </form>
               </div>
               <div class="modal-footer">
@@ -187,19 +202,19 @@
                     </div>
                     <div class="form-group">
                       <label for="physicalAppearance"><span class="glyphicon glyphicon-usd"></span> Prefferred cost of hostel</label>
-                      <input type="text" class="form-control" id="prefcost" placeholder="Enter desired cost for hostel">
+                      <input type="text" class="form-control" id="prefcost" placeholder="Enter desired cost for hostel" required>
                     </div>
                     <div class="form-group">
                       <label for="characterTraits"><span class="glyphicon glyphicon-fullscreen"></span> Prefferred hostel space</label>
-                      <input type="text" class="form-control" id="prefspace" placeholder="Select desired hostel space">
+                      <input type="text" class="form-control" id="prefspace" placeholder="Select desired hostel space" required>
                     </div>
                     <div class="form-group">
                       <label for="location"><span class="glyphicon glyphicon-map-marker"></span> Prefferred hostel location</label>
-                      <input type="text" class="form-control" id="preflocation" placeholder="Enter desired/prefferred location of hostel">
+                      <input type="text" class="form-control" id="preflocation" placeholder="Enter desired/prefferred location of hostel" required>
                     </div>
                     <div class="form-group">
                       <label for="ageBracket"><span class="glyphicon glyphicon-calendar"></span> Prefferred match age bracket</label>
-                      <input type="text" class="form-control" id="prefage" placeholder="Enter desired/prefferred match age bracket">
+                      <input type="text" class="form-control" id="prefage" placeholder="Enter desired/prefferred match age bracket" required>
                     </div>
                     <!-- <div class="form-group">
                       <label for="userImageUpload"><span class="glyphicon glyphicon-cloud-upload"></span> Upload Image</label>
@@ -216,7 +231,7 @@
                     <!-- <div class="checkbox">
                       <label><input type="checkbox" value="" checked>Remember me</label>
                     </div> -->
-                      <button type="submit" class="btn btn-success btn-block" id="submitcustomhostel"><span class="glyphicon glyphicon-ok"></span> Submit custom selection</button>
+                      <button type="submit" class="btn btn-primary btn-block" id="submitcustomhostel"><span class="glyphicon glyphicon-ok"></span> Submit custom selection</button>
                   </form>
                 </div>
                 <div class="modal-footer">
@@ -230,9 +245,80 @@
           </div>
 
 
+
+          <!-- Modal -->
+        <div class="modal fade" id="myModal2" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header" style="padding:35px 50px;">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4><span class="fa fa-user-edit"></span> Edit my account features for a match !</h4>
+              </div>
+              <div class="modal-body" style="padding:40px 50px;">
+                <form role="form">
+                  <div class="form-group">
+                    <label for="usrname"><span class="fa fa-venus-mars"></span> Gender</label>
+                    <select class="browser-default custom-select custom-select-lg mb-3" >
+                        <option selected style="text-align: center;">Change my Gender</option>
+                        <option value="Male" class="form-control fa fa-mars" id="male">Male, &#xf222</option>
+                        <option value="Female" class="form-control fa fa-venus" id="female">Female, &#xf221</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="physicalAppearance"><span class="glyphicon glyphicon-envelope"></span> Change my username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter new user name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="physicalAppearance"><span class="glyphicon glyphicon-envelope"></span> Change my email</label>
+                    <input type="text/email" class="form-control" id="email1" placeholder="Enter new email address" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="characterTraits"><span class="glyphicon glyphicon-eye-close"></span> Enter New Password</label>
+                    <input type="password" class="form-control" id="pass1" placeholder="Enter desired character traits" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="location"><span class="glyphicon glyphicon-eye-close"></span> Confirm New Password</label>
+                    <input type="password" class="form-control" id="pass2" placeholder="Enter desired/prefferred location of match" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="ageBracket"><span class="glyphicon glyphicon-pencil"></span> Change Your Description</label>
+                    <input type="text" class="form-control" id="prefmatchagebracket" placeholder="Enter desired/prefferred match age bracket" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="userImageUpload"><span class="glyphicon glyphicon-cloud-upload"></span> Change Your Image</label>
+                    <div class="input-group">
+                        <span class="input-group-btn">
+                            <span class="btn btn-default btn-file">
+                                Browse… <input type="file" id="imgInp">
+                            </span>
+                        </span>
+                        <input type="text" class="form-control" readonly>
+                    </div>
+                    <img id='img-upload'/>
+                </div>
+                  <!-- <div class="checkbox">
+                    <label><input type="checkbox" value="" checked>Remember me</label>
+                  </div> -->
+                    <button type="submit" class="btn btn-primary btn-block" ><span class="glyphicon glyphicon-ok"></span> Submit Profile Modifications</button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal" onclick="validate();"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                <p>Not a member? <a href="#">Sign Up</a></p>
+                <p>Forgot <a href="#">Password?</a></p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
       </div>
        
       <script>
+        
+
         //button to trigger person features customisation form with image upload
         $(document).ready(function(){
             $("#myBtn").click(function(){
@@ -246,6 +332,15 @@
             $("#myModal1").modal();
             });
         });
+
+
+        $(document).ready(function(){
+            $("#myBtn2").click(function(){
+            $("#myModal2").modal();
+            });
+        });
+
+
         //handle for image upload button:
         $(document).ready( function() {
         $(document).on('change', '.btn-file :file', function() {
@@ -283,6 +378,6 @@
         }); 	
         });
       </script>
-
+  <script src="/Js/me.js"></script>
 </body>
 </html>
