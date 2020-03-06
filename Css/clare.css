@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 #profile1,#profile2,#profile3,#profile4,#profile5,#profile6,#profile7,#profile8,#profile9{
   display: inline-block;
   text-align: center;
   margin-bottom: 25px;
-  background-color: skyblue;
+  background-color:skyblue;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(26, 27, 68, 0.19);
   width: 330px;
   cursor: pointer; 
@@ -53,50 +52,32 @@ button:hover{
   color: white;
   background-color: black;
 }
-=======
-body {
-    background-color: #050202;
-    color: white;
-  }
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width:100%;
   
-  .profile-pic {
-      max-width: 200px;
-      max-height: 200px;
-      display: block;
-  }
+}
+
+li {
+  float: left;
   
-  .file-upload {
-      display: none;
-  }
-  .circle {
-      border-radius: 1050px !important;
-      overflow: hidden;
-      width: 130px;
-      height: 130px;
-      border: 6px solid rgba(255, 255, 255, 0.7);
-      position: absolute;
-      top: 72px;
-  }
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
   
-  img {
-      width: 120px;
-  }
-  .p-image {
-    position: absolute;
-    top: 167px;
-    right: 30px;
-    color: #666666;
-    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
-  }
-  .p-image:hover {
-    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
-  }
-  .upload-button {
-    font-size: 1.2em;
-  }
-  
-  .upload-button:hover {
-    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
-    color: #999;
-  }
->>>>>>> a3457b6eb083492236efb1671668e7aacd03cf61
+}
+
+li a:hover {
+  background-color:skyblue;
+}

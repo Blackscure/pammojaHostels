@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-image: url("../hostels.img/backg.jpeg");
     background-repeat: no-repeat;
     background-size: cover; 
     color: tomato;
@@ -58,6 +58,33 @@ body{
 .form .register{
     display: none;
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width:100%;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color:skyblue;
+  }
 
 
 
