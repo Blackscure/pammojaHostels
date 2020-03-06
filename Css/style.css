@@ -1,5 +1,4 @@
-
-
+ 
 @import Url("https://fonts.googleapis.com/css?family=Rajdhani&display=swap");
 
 *{
@@ -7,6 +6,38 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rajdhani', sans-serif;
+}
+
+
+/***********body section********/
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    width: 100%;
+    background: whitesmoke;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgb(5, 5, 5);
+}
+
+.wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+body{
+background: url("../Images/grop.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.wrapper .input_field{
+    margin-bottom: 10px;
 }
  /***********body section********/
     .wrapper{
@@ -20,6 +51,7 @@
         padding: 25px;
         border-radius: 5px;
         box-shadow: 4px 4px 2px rgb(5, 5, 5);
+        
     }
 
     .wrapper h2{
@@ -34,6 +66,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.wrapper{
+    padding-top: 30px;
+}
  .wrapper textarea{
      height: 80px;
      resize: none;
@@ -45,4 +81,76 @@ body{
      padding: 10px;
      width: 100%;
      background: lightgreen;
+     color: black;
+     text-transform: uppercase;
+     left: 5px;
+     border-radius: 25px;
+     cursor: pointer;
  }
+
+ .wrapper #error_message{
+     margin-bottom: 20px;
+     padding: 0px;
+     background: red;
+     text-align: center;
+     font-size: 14px;
+     transition: all 0.5s ease;
+ }
+
+ .wrapper .btn input[type="submit"]{
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: skyblue;
+    border-radius: 40px;
+
+}
+#footer{
+    padding-top: 800px;
+    margin-bottom: 0px;
+    padding-top: 600px;
+
+}
+
+/****nav****/
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+    position: fixed;
+    width:100%;
+    
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+    
+  }
+  
+  li a:hover {
+    background-color:skyblue;
+  }
+
+  #myform{
+      padding-top: none;
+  }
+
+  #footer img{
+    width: 30px;
+    opacity: 0.47;
+  }
+ 

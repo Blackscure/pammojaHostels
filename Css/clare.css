@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #profile1,#profile2,#profile3,#profile4,#profile5,#profile6,#profile7,#profile8,#profile9{
   display: inline-block;
   text-align: center;
@@ -52,3 +53,50 @@ button:hover{
   color: white;
   background-color: black;
 }
+=======
+body {
+    background-color: #050202;
+    color: white;
+  }
+  
+  .profile-pic {
+      max-width: 200px;
+      max-height: 200px;
+      display: block;
+  }
+  
+  .file-upload {
+      display: none;
+  }
+  .circle {
+      border-radius: 1050px !important;
+      overflow: hidden;
+      width: 130px;
+      height: 130px;
+      border: 6px solid rgba(255, 255, 255, 0.7);
+      position: absolute;
+      top: 72px;
+  }
+  
+  img {
+      width: 120px;
+  }
+  .p-image {
+    position: absolute;
+    top: 167px;
+    right: 30px;
+    color: #666666;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  }
+  .p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  }
+  .upload-button {
+    font-size: 1.2em;
+  }
+  
+  .upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+  }
+>>>>>>> a3457b6eb083492236efb1671668e7aacd03cf61
